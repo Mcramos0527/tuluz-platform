@@ -20,7 +20,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     const saved = localStorage.getItem('tuluz-locale') as Locale | null
-    if (saved && (saved === 'es' || saved === 'de')) {
+    if (saved && (saved === 'es' || saved === 'en')) {
       setLocaleState(saved)
     }
   }, [])

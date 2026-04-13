@@ -26,7 +26,7 @@ export function Navbar() {
     }
   }, [])
 
-  const flagLabel = (lang: 'es' | 'de') => lang === 'es' ? 'ES' : 'DE'
+  const flagLabel = (lang: 'es' | 'en') => lang === 'es' ? '🇪🇸 ES' : '🇬🇧 EN'
 
   return (
     <header style={{
@@ -69,7 +69,7 @@ export function Navbar() {
         <div className="nav-desktop" style={{ display: 'flex', alignItems: 'center', gap: '.75rem' }}>
           {/* Language toggle */}
           <div style={{ display: 'flex', gap: '.25rem', background: '#F2E8D2', borderRadius: '8px', padding: '.2rem' }}>
-            {(['es', 'de'] as const).map((lang) => (
+            {(['es', 'en'] as const).map((lang) => (
               <button key={lang} onClick={() => setLocale(lang)} style={{
                 padding: '.25rem .6rem', borderRadius: '6px', border: 'none', cursor: 'pointer',
                 fontSize: '.75rem', fontWeight: 700, fontFamily: 'Inter, system-ui, sans-serif',
@@ -118,7 +118,7 @@ export function Navbar() {
           ))}
           <hr style={{ border: 'none', borderTop: '1px solid #EAD9BC' }} />
           <div style={{ display: 'flex', gap: '.5rem' }}>
-            {(['es', 'de'] as const).map((lang) => (
+            {(['es', 'en'] as const).map((lang) => (
               <button key={lang} onClick={() => setLocale(lang)} style={{
                 padding: '.35rem .875rem', borderRadius: '8px', border: 'none', cursor: 'pointer',
                 fontSize: '.8rem', fontWeight: 700,
