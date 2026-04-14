@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useLanguage } from '@/lib/i18n/LanguageContext'
 
 export function Footer() {
@@ -18,16 +19,8 @@ export function Footer() {
         }}>
           {/* Brand */}
           <div style={{ gridColumn: 'span 2', maxWidth: '22rem' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '.6rem', marginBottom: '1rem' }}>
-              <div style={{
-                width: '2.25rem', height: '2.25rem',
-                background: 'linear-gradient(135deg, #C4893A, #F0D9A8)',
-                borderRadius: '.6rem',
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-              }}>
-                <span style={{ color: '#2D1E0F', fontWeight: 900, fontSize: '1rem', fontFamily: 'Georgia, serif' }}>T</span>
-              </div>
-              <span style={{ fontFamily: "'Playfair Display', Georgia, serif", fontWeight: 700, fontSize: '1.2rem', color: '#F0D9A8' }}>Tuluz</span>
+            <div style={{ marginBottom: '1rem' }}>
+              <Image src="/brand/logo-white-bg.png" alt="Tu Luz" width={130} height={52} style={{ objectFit: 'contain', filter: 'brightness(0) invert(1)', opacity: 0.85 }} />
             </div>
             <p style={{ fontSize: '.875rem', lineHeight: 1.75, maxWidth: '20rem' }}>
               {t.footer.tagline}

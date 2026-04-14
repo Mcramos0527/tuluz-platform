@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import { createClient } from '@/lib/supabase/client'
 import { useLanguage } from '@/lib/i18n/LanguageContext'
@@ -43,11 +44,8 @@ export function Navbar() {
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
       }}>
         {/* Logo */}
-        <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '.6rem', textDecoration: 'none' }}>
-          <div style={{ width: '2.25rem', height: '2.25rem', background: 'linear-gradient(135deg, #C4893A, #F0D9A8)', borderRadius: '.6rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <span style={{ color: '#2D1E0F', fontWeight: 900, fontSize: '1rem', fontFamily: 'Georgia, serif' }}>T</span>
-          </div>
-          <span style={{ fontFamily: "'Playfair Display', Georgia, serif", fontWeight: 700, fontSize: '1.2rem', color: '#2D1E0F' }}>Tuluz</span>
+        <Link href="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+          <Image src="/brand/logo.png" alt="Tu Luz" width={140} height={56} style={{ objectFit: 'contain' }} priority />
         </Link>
 
         {/* Desktop nav links */}
