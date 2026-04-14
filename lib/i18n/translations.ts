@@ -96,6 +96,24 @@ export const translations = {
         { icon: '🌍', title: 'Alcance regional', desc: 'Latinoamérica y Europa: el mismo idioma, el mismo propósito.' },
       ],
     },
+    community: {
+      tag: 'Nuestra comunidad',
+      h2a: 'Mujeres que ya',
+      h2b: 'están brillando.',
+      sub: 'Más de 500 emprendedoras en Latinoamérica y Europa han transformado sus negocios con Tuluz. Aprenden juntas, se certifican y se conectan con empresas que valoran su impacto.',
+      cta: 'Únete a la comunidad →',
+    },
+    award: {
+      tag: '🏆 Reconocimiento',
+      h2a: 'Premio Lidera Mujer',
+      h2b: 'Verónica Elena Carmona.',
+      sub: 'Asociación que impulsa el emprendimiento consciente femenino a través del arte y la preservación cultural, integrando lo personal y lo profesional en cada proceso.',
+      bullets: [
+        '🎓 Respaldada por universidades en España y LATAM',
+        '🤝 Alianzas con empresas B2B comprometidas con ESG',
+        '🌱 100% sin fines de lucro — el impacto es la misión',
+      ],
+    },
     cta: {
       h2a: 'Tu luz ya existe.',
       h2b: 'Ahora hazla brillar.',
@@ -198,6 +216,24 @@ export const translations = {
         { icon: '🔗', title: 'Fair connection', desc: 'Entrepreneurs with companies that value what they create.' },
         { icon: '💡', title: 'Education with purpose', desc: 'AI in service of human talent, never the other way around.' },
         { icon: '🌍', title: 'Regional reach', desc: 'Latin America and Europe: the same language, the same purpose.' },
+      ],
+    },
+    community: {
+      tag: 'Our community',
+      h2a: 'Women who are',
+      h2b: 'already shining.',
+      sub: 'Over 500 entrepreneurs in Latin America and Europe have transformed their businesses with Tuluz. They learn together, get certified, and connect with companies that value their impact.',
+      cta: 'Join the community →',
+    },
+    award: {
+      tag: '🏆 Recognition',
+      h2a: 'Lidera Mujer Award',
+      h2b: 'Verónica Elena Carmona.',
+      sub: 'Association that drives conscious female entrepreneurship through art and cultural preservation, integrating the personal and professional in every process.',
+      bullets: [
+        '🎓 Backed by universities in Spain and LATAM',
+        '🤝 Alliances with B2B companies committed to ESG',
+        '🌱 100% non-profit — impact is the mission',
       ],
     },
     cta: {
