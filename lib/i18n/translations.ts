@@ -3,6 +3,13 @@ export type Locale = 'es' | 'en'
 export const translations = {
   es: {
     nav: {
+      home: 'Home',
+      bootcamp: 'Bootcamp',
+      hub: 'Hub Online',
+      metodologia: 'Metodología',
+      noticias: 'Noticias',
+      nosotras: 'Nosotras',
+      /* kept for footer / internal use */
       marketplace: 'Marketplace',
       courses: 'Cursos',
       blog: 'Blog',
@@ -125,6 +132,13 @@ export const translations = {
 
   en: {
     nav: {
+      home: 'Home',
+      bootcamp: 'Bootcamp',
+      hub: 'Online Hub',
+      metodologia: 'Methodology',
+      noticias: 'News',
+      nosotras: 'About',
+      /* kept for footer / internal use */
       marketplace: 'Marketplace',
       courses: 'Courses',
       blog: 'Blog',

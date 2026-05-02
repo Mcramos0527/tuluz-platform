@@ -1,7 +1,6 @@
 'use client'
 
 import Link from 'next/link'
-import Image from 'next/image'
 import { useLanguage } from '@/lib/i18n/LanguageContext'
 
 export function Footer() {
@@ -19,8 +18,9 @@ export function Footer() {
         }}>
           {/* Brand */}
           <div style={{ gridColumn: 'span 2', maxWidth: '22rem' }}>
-            <div style={{ marginBottom: '1rem' }}>
-              <Image src="/brand/logo-white-bg.png" alt="Tu Luz" width={130} height={52} style={{ objectFit: 'contain', filter: 'brightness(0) invert(1)', opacity: 0.85 }} />
+            <div style={{ marginBottom: '1.1rem', display: 'flex', alignItems: 'baseline', gap: '1px' }}>
+              <span style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: '1.55rem', fontStyle: 'italic', fontWeight: 700, color: '#F0D9A8', letterSpacing: '-0.02em', lineHeight: 1 }}>Tu luz</span>
+              <span style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: '1.55rem', fontWeight: 700, color: '#C4893A', lineHeight: 1 }}>.</span>
             </div>
             <p style={{ fontSize: '.875rem', lineHeight: 1.75, maxWidth: '20rem' }}>
               {t.footer.tagline}
@@ -34,10 +34,11 @@ export function Footer() {
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '.5rem' }}>
               {[
-                { href: '/marketplace', label: t.nav.marketplace },
-                { href: '/courses', label: t.nav.courses },
-                { href: '/blog', label: t.nav.blog },
-                { href: '/register', label: t.nav.register },
+                { href: '/courses',      label: t.nav.bootcamp     },
+                { href: '/marketplace',  label: t.nav.hub          },
+                { href: '/metodologia',  label: t.nav.metodologia  },
+                { href: '/blog',         label: t.nav.noticias     },
+                { href: '/nosotras',     label: t.nav.nosotras     },
               ].map(({ href, label }) => (
                 <li key={href}>
                   <Link href={href} style={{ fontSize: '.875rem', textDecoration: 'none', color: '#C4A87A', transition: 'color .2s' }}>
