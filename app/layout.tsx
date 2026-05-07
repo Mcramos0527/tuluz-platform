@@ -15,14 +15,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Tuluz',
-    default: 'Tuluz — Emprendimiento Consciente con Impacto Positivo',
+    template: '%s | Tu Luz',
+    default: 'Tu Luz — Emprendimiento Consciente con Impacto Positivo',
   },
   description:
-    'Tuluz certifica y conecta emprendedoras con impacto positivo en Latinoamérica y Europa. Construye tu MVP, obtén certificaciones ESG y conecta con empresas que valoran tu impacto.',
+    'Tu Luz certifica y conecta emprendedoras con impacto positivo en Latinoamérica y Europa. Construye tu MVP, obtén certificaciones ESG y conecta con empresas que valoran tu impacto.',
   keywords: ['emprendimiento consciente', 'sostenibilidad', 'ESG', 'Latinoamérica', 'certificación'],
   openGraph: {
-    siteName: 'Tuluz',
+    siteName: 'Tu Luz',
     locale: 'es_ES',
     type: 'website',
   },

@@ -100,7 +100,7 @@ export default function RegisterPage() {
             </div>
           </Link>
           <h1 className="text-2xl font-bold">Crear cuenta gratuita</h1>
-          <p className="text-[#5a8a6a] mt-2">Únete a la comunidad Tuluz</p>
+          <p className="text-[#5a8a6a] mt-2">Únete a la comunidad Tu Luz</p>
         </div>
 
         <div className="bg-white border border-[#b7e4c7] rounded-2xl p-8 shadow-sm">
@@ -112,7 +112,7 @@ export default function RegisterPage() {
 
           {step === 1 ? (
             <div>
-              <h2 className="font-semibold mb-4">¿Cómo quieres usar Tuluz?</h2>
+              <h2 className="font-semibold mb-4">¿Cómo quieres usar Tu Luz?</h2>
               <div className="space-y-3 mb-6">
                 {roles.map((role) => (
                   <button

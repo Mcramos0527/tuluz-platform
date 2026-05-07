@@ -61,8 +61,8 @@ export default function NosotrasPage() {
           </h1>
           <p style={{ fontFamily: sans, fontSize: '1.1rem', color: MID, lineHeight: 1.9, maxWidth: '42rem' }}>
             {locale === 'es'
-              ? 'Tuluz es una asociación sin fines de lucro fundada con la misión de hacer visible, certificar y conectar el talento femenino con impacto real en Latinoamérica y Europa.'
-              : 'Tuluz is a non-profit association founded with the mission of making visible, certifying, and connecting female talent with real impact across Latin America and Europe.'}
+              ? 'Tu Luz es una asociación sin fines de lucro fundada con la misión de hacer visible, certificar y conectar el talento femenino con impacto real en Latinoamérica y Europa.'
+              : 'Tu Luz is a non-profit association founded with the mission of making visible, certifying, and connecting female talent with real impact across Latin America and Europe.'}
           </p>
         </div>
       </section>
@@ -75,8 +75,8 @@ export default function NosotrasPage() {
           <div style={{ maxWidth: '44rem' }}>
             <p style={{ fontFamily: serif, fontSize: 'clamp(1.2rem, 2.5vw, 1.7rem)', fontStyle: 'italic', color: GOLD_LT, lineHeight: 1.6, marginBottom: '1.25rem' }}>
               &ldquo;{locale === 'es'
-                ? 'Creé Tuluz porque yo misma fui esa emprendedora invisible que tenía impacto pero no tenía visibilidad. Quiero que ninguna mujer vuelva a pasar por eso.'
-                : 'I created Tuluz because I was that invisible entrepreneur — I had impact but no visibility. I want no woman to go through that again.'}&rdquo;
+                ? 'Creé Tu Luz porque yo misma fui esa emprendedora invisible que tenía impacto pero no tenía visibilidad. Quiero que ninguna mujer vuelva a pasar por eso.'
+                : 'I created Tu Luz because I was that invisible entrepreneur — I had impact but no visibility. I want no woman to go through that again.'}&rdquo;
             </p>
             <p style={{ fontFamily: sans, fontSize: '.75rem', fontWeight: 700, color: 'rgba(240,217,168,.7)', letterSpacing: '.08em', textTransform: 'uppercase' }}>
               Verónica Elena Carmona · {locale === 'es' ? 'Fundadora' : 'Founder'}

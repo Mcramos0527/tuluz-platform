@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
 import type { Metadata } from 'next'
 
-export const metadata: Metadata = { title: 'Cursos | Tuluz' }
+export const metadata: Metadata = { title: 'Cursos | Tu Luz' }
 
 export default async function CoursesPage() {
   const supabase = await createClient()
@@ -38,7 +38,7 @@ export default async function CoursesPage() {
       {/* Header */}
       <div className="bg-gradient-to-br from-[#1b4332] to-[#2d6a4f] text-white py-14 px-4">
         <div className="mx-auto max-w-5xl">
-          <h1 className="text-3xl sm:text-4xl font-bold mb-3">Cursos Tuluz</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold mb-3">Cursos Tu Luz</h1>
           <p className="text-[#b7e4c7] text-lg max-w-2xl">
             Construye tu MVP guiada por inteligencia artificial. Cada módulo genera
             automáticamente una pieza de tu plan de negocio.

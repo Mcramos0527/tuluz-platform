@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
 import type { Metadata } from 'next'
 
-export const metadata: Metadata = { title: 'Admin | Tuluz' }
+export const metadata: Metadata = { title: 'Admin | Tu Luz' }
 
 export default async function AdminPage() {
   const supabase = await createClient()
@@ -48,7 +48,7 @@ export default async function AdminPage() {
           <div className="w-8 h-8 bg-[#40916c] rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-sm">T</span>
           </div>
-          <span className="font-bold">Tuluz Admin</span>
+          <span className="font-bold">Tu Luz Admin</span>
         </div>
         <form action="/auth/signout" method="post">
           <button type="submit" className="text-sm text-[#95d5b2] hover:text-white">Salir</button>

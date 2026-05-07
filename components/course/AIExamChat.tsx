@@ -372,7 +372,7 @@ export function AIExamChat({
             </button>
           </div>
           <p className="text-center text-xs text-[#a0c0a8] mt-2">
-            Powered by GPT-4o · Tuluz AI Mentor
+            Powered by GPT-4o · Tu Luz AI Mentor
           </p>
         </div>
       )}

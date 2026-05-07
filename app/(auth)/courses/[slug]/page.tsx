@@ -13,7 +13,7 @@ export async function generateMetadata(
     .select('title, description')
     .eq('slug', slug)
     .single()
-  return { title: data ? `${data.title} | Tuluz` : 'Curso' }
+  return { title: data ? `${data.title} | Tu Luz` : 'Curso' }
 }
 
 const STATUS_CONFIG: Record<string, { label: string; color: string }> = {

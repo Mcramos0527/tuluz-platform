@@ -53,7 +53,7 @@ export default async function DashboardPage() {
               <div className="w-8 h-8 bg-[#2d6a4f] rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">T</span>
               </div>
-              <span className="font-bold text-[#1b4332]">Tuluz</span>
+              <span className="font-bold text-[#1b4332]">Tu Luz</span>
             </Link>
           </div>
           <div className="flex items-center gap-4">
@@ -210,7 +210,7 @@ export default async function DashboardPage() {
             <div className="bg-white border border-[#b7e4c7] rounded-2xl p-6">
               <h3 className="font-semibold mb-3">Buscar Proveedoras ESG</h3>
               <p className="text-sm text-[#5a8a6a] mb-4">
-                Encuentra emprendedoras certificadas por Tuluz para cumplir tus objetivos de sostenibilidad.
+                Encuentra emprendedoras certificadas por Tu Luz para cumplir tus objetivos de sostenibilidad.
               </p>
               <Link
                 href="/marketplace"
@@ -235,7 +235,7 @@ export default async function DashboardPage() {
             <p className="text-4xl mb-4">📩</p>
             <h3 className="font-semibold text-lg mb-2">Suscripción activa</h3>
             <p className="text-[#5a8a6a] text-sm mb-6">
-              Recibirás el newsletter de Tuluz con las últimas noticias sobre emprendimiento
+              Recibirás el newsletter de Tu Luz con las últimas noticias sobre emprendimiento
               consciente y sostenibilidad.
             </p>
             <Link

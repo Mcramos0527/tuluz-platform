@@ -4,7 +4,7 @@ import { createClient, createServiceClient } from '@/lib/supabase/server'
 import { sendProfileApprovedEmail } from '@/lib/resend/emails'
 import type { Metadata } from 'next'
 
-export const metadata: Metadata = { title: 'Revisar Perfil | Admin Tuluz' }
+export const metadata: Metadata = { title: 'Revisar Perfil | Admin Tu Luz' }
 
 export default async function AdminProfileReviewPage({
   params,

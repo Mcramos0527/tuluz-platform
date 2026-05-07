@@ -102,7 +102,7 @@ export function MVPDocument({
             </span>
             {certifications.length > 0 && (
               <span className="text-sm text-[#2d6a4f] font-medium">
-                · {certifications.length} certificación{certifications.length !== 1 ? 'es' : ''} Tuluz
+                · {certifications.length} certificación{certifications.length !== 1 ? 'es' : ''} Tu Luz
               </span>
             )}
           </div>
@@ -149,7 +149,7 @@ export function MVPDocument({
       {/* Certifications section */}
       {certifications.length > 0 && (
         <div className="bg-white border border-[#b7e4c7] rounded-2xl p-6">
-          <h3 className="font-semibold mb-4">Certificaciones Tuluz</h3>
+          <h3 className="font-semibold mb-4">Certificaciones Tu Luz</h3>
           <div className="grid sm:grid-cols-2 gap-4">
             {certifications.map((cert) => (
               <div key={cert.id}

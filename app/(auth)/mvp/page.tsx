@@ -4,7 +4,7 @@ import { createClient } from '@/lib/supabase/server'
 import { MVPDocument } from '@/components/mvp/MVPDocument'
 import type { Metadata } from 'next'
 
-export const metadata: Metadata = { title: 'Mi MVP | Tuluz' }
+export const metadata: Metadata = { title: 'Mi MVP | Tu Luz' }
 
 export default async function MVPPage() {
   const supabase = await createClient()

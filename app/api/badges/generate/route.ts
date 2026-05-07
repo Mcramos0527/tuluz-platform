@@ -128,7 +128,7 @@ function generateBadgeSVG({
   <text x="60" y="55" font-family="serif" font-size="22" fill="#1a3a2a"
     text-anchor="middle" dominant-baseline="middle">T</text>
   <text x="60" y="74" font-family="sans-serif" font-size="7" fill="#1a3a2a"
-    text-anchor="middle" letter-spacing="2">TULUZ</text>
+    text-anchor="middle" letter-spacing="2">TU LUZ</text>
 
   <!-- Badge type label -->
   <text x="110" y="42" font-family="sans-serif" font-size="11" fill="#b7e4c7"
@@ -146,7 +146,7 @@ function generateBadgeSVG({
   <text x="200" y="140" font-family="sans-serif" font-size="11" fill="#d8f3dc"
     text-anchor="middle">Ha completado satisfactoriamente el proceso de</text>
   <text x="200" y="158" font-family="sans-serif" font-size="11" fill="#d8f3dc"
-    text-anchor="middle">certificación de la Asociación Tuluz</text>
+    text-anchor="middle">certificación de la Asociación Tu Luz</text>
 
   <!-- Date -->
   <text x="200" y="190" font-family="sans-serif" font-size="10" fill="#95d5b2"

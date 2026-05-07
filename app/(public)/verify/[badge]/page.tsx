@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
 import type { Metadata } from 'next'
 
-export const metadata: Metadata = { title: 'Verificar Insignia | Tuluz' }
+export const metadata: Metadata = { title: 'Verificar Insignia | Tu Luz' }
 
 export default async function VerifyBadgePage({
   params,
@@ -41,7 +41,7 @@ export default async function VerifyBadgePage({
       <div className="w-full max-w-lg text-center">
         {/* Valid badge */}
         <div className="bg-white border-2 border-[#95d5b2] rounded-3xl p-10 shadow-lg">
-          {/* Tuluz seal */}
+          {/* Tu Luz seal */}
           <div className="w-20 h-20 bg-gradient-to-br from-[#2d6a4f] to-[#40916c] rounded-full
             flex items-center justify-center mx-auto mb-6">
             <span className="text-white text-3xl font-bold">T</span>
@@ -68,7 +68,7 @@ export default async function VerifyBadgePage({
 
           <div className="mt-6 pt-6 border-t border-[#f0faf4]">
             <p className="text-xs text-[#5a8a6a]">
-              Emitido por la Asociación Tuluz · ID: {badge}
+              Emitido por la Asociación Tu Luz · ID: {badge}
             </p>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default async function VerifyBadgePage({
         <p className="mt-8 text-sm text-[#5a8a6a]">
           ¿Quieres obtener tu propia certificación?{' '}
           <Link href="/register" className="text-[#2d6a4f] font-medium hover:underline">
-            Únete a Tuluz
+            Únete a Tu Luz
           </Link>
         </p>
       </div>

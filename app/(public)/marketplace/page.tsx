@@ -5,8 +5,8 @@ import type { Metadata } from 'next'
 import type { EntrepreneurProfile } from '@/types/database'
 
 export const metadata: Metadata = {
-  title: 'Marketplace — Emprendedoras Certificadas | Tuluz',
-  description: 'Descubre emprendedoras con impacto positivo certificadas por Tuluz en Latinoamérica y Europa.',
+  title: 'Marketplace — Emprendedoras Certificadas | Tu Luz',
+  description: 'Descubre emprendedoras con impacto positivo certificadas por Tu Luz en Latinoamérica y Europa.',
 }
 
 interface SearchParams {
@@ -67,7 +67,7 @@ export default async function MarketplacePage({
             Marketplace de Emprendedoras
           </h1>
           <p className="text-[#b7e4c7] text-lg max-w-2xl">
-            Descubre emprendedoras con impacto positivo certificadas por Tuluz en
+            Descubre emprendedoras con impacto positivo certificadas por Tu Luz en
             Latinoamérica y Europa. Todas verificadas por nuestro equipo.
           </p>
         </div>

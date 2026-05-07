@@ -16,7 +16,7 @@ export async function generateMetadata(
     .single()
 
   return {
-    title: data ? `${data.business_name} | Marketplace Tuluz` : 'Perfil no encontrado',
+    title: data ? `${data.business_name} | Marketplace Tu Luz` : 'Perfil no encontrado',
     description: data?.business_description ?? undefined,
   }
 }
@@ -118,7 +118,7 @@ export default async function EntrepreneurProfilePage({
               <div className="bg-white border border-[#b7e4c7] rounded-2xl p-6">
                 <h2 className="font-semibold text-lg mb-4">Plan de Negocio Certificado</h2>
                 <p className="text-sm text-[#5a8a6a] mb-5">
-                  Generado y validado durante el proceso de formación Tuluz
+                  Generado y validado durante el proceso de formación Tu Luz
                 </p>
                 <div className="space-y-4">
                   {Object.entries(deliverables).map(([type, deliverable]) => {
@@ -223,7 +223,7 @@ export default async function EntrepreneurProfilePage({
             {/* Badges */}
             {certifications && certifications.length > 0 && (
               <div className="bg-white border border-[#b7e4c7] rounded-2xl p-5">
-                <h3 className="font-semibold mb-3 text-sm">Certificaciones Tuluz</h3>
+                <h3 className="font-semibold mb-3 text-sm">Certificaciones Tu Luz</h3>
                 <div className="space-y-2">
                   {certifications.map((cert) => (
                     <div key={cert.id} className="flex items-center gap-2">

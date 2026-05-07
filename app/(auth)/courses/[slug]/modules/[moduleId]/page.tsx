@@ -17,7 +17,7 @@ export async function generateMetadata(
     .eq('id', moduleId)
     .single()
   const row = data as unknown as { title: string } | null
-  return { title: row ? `${row.title} | Tuluz` : 'Módulo' }
+  return { title: row ? `${row.title} | Tu Luz` : 'Módulo' }
 }
 
 export default async function ModulePage({

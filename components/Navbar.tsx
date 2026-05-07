@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import { usePathname } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
@@ -16,11 +17,12 @@ const BORDER  = '#EAD9BC'
 const CREAM   = '#FDFAF4'
 
 /* Navigation spec (ordered per BDD spec):
-   Home · Bootcamp · Hub Online · Metodología · Noticias · Nosotras        */
+   Home · Bootcamp · Marketplace · Hub Online · Metodología · Noticias · Nosotras */
 const NAV_ITEMS = [
   { key: 'home'        as const, href: '/'            },
   { key: 'bootcamp'    as const, href: '/courses'      },
   { key: 'hub'         as const, href: '/marketplace'  },
+  { key: 'hubOnline'   as const, href: '/hub-online'   },
   { key: 'metodologia' as const, href: '/metodologia'  },
   { key: 'noticias'    as const, href: '/blog'         },
   { key: 'nosotras'    as const, href: '/nosotras'     },
@@ -71,10 +73,16 @@ export function Navbar() {
         justifyContent: 'space-between', gap: '1.5rem',
       }}>
 
-        {/* ── Wordmark ──────────────────────────────────────────────────── */}
-        <Link href="/" style={{ textDecoration: 'none', flexShrink: 0, display: 'flex', alignItems: 'baseline', gap: '1px', cursor: 'pointer' }}>
-          <span style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: '1.55rem', fontStyle: 'italic', fontWeight: 700, color: BROWN, letterSpacing: '-0.02em', lineHeight: 1 }}>Tu luz</span>
-          <span style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: '1.55rem', fontWeight: 700, color: GOLD, lineHeight: 1 }}>.</span>
+        {/* ── Logo ──────────────────────────────────────────────────────── */}
+        <Link href="/" style={{ textDecoration: 'none', flexShrink: 0, display: 'flex', alignItems: 'center', cursor: 'pointer' }}>
+          <Image
+            src="/brand/logo.png"
+            alt="Tu Luz"
+            width={120}
+            height={120}
+            style={{ height: '52px', width: 'auto', objectFit: 'contain' }}
+            priority
+          />
         </Link>
 
         {/* ── Desktop links (6 items) ────────────────────────────────────── */}

@@ -4,7 +4,7 @@ import { AIExamChat } from '@/components/course/AIExamChat'
 import type { CourseModule, ModuleProgress } from '@/types/database'
 import type { Metadata } from 'next'
 
-export const metadata: Metadata = { title: 'Examen con IA | Tuluz' }
+export const metadata: Metadata = { title: 'Examen con IA | Tu Luz' }
 
 export default async function ExamPage({
   params,

@@ -91,7 +91,7 @@ export function LoginForm() {
             </div>
           </Link>
           <h1 className="text-2xl font-bold">Iniciar sesión</h1>
-          <p className="text-[#5a8a6a] mt-2">Bienvenida de vuelta a Tuluz</p>
+          <p className="text-[#5a8a6a] mt-2">Bienvenida de vuelta a Tu Luz</p>
         </div>
 
         <div className="bg-white border border-[#b7e4c7] rounded-2xl p-8 shadow-sm">
